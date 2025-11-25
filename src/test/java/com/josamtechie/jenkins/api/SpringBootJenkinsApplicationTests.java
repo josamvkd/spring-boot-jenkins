@@ -15,6 +15,7 @@ class SpringBootJenkinsApplicationTests {
 	@Test
 	void contextLoads() {
         log.info("Spring Boot Jenkins Application test case execution started");
+        log.info("Spring Boot Jenkins Application test case execution started second log for testing");
         assertEquals(true,true);
 	}
 
